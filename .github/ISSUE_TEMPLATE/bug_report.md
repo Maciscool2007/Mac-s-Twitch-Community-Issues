@@ -1,44 +1,13 @@
-: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: [bug, triage]
-body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: checkboxes
-    attributes:
-      label: Is there an existing issue for this?
-      description: Please search to see if an issue already exists for the bug you encountered.
-      options:
-      - label: I have searched the existing issues
-        required: true
-  - type: textarea
-    id: desc
-    attributes:
-      label: Description
-      description: Describe the issue you are facing.
-    validations:
-      required: true
-  - type: textarea
-    id: expected
-    attributes:
-      label: Expected behaviour
-      description: Describe the issue you are facing.
-    validations:
-      required: true
-  - type: textarea
-    id: repro
-    attributes:
-      label: Steps to reproduce
-      description: Steps to reproduce the issue.
-      placeholder: |
-          1. Run this command...
-          2. Do this animation...
-          2. Press this key..
-    validations:
-      required: true
-  - type: input
-    id: texture
-    attributes:
+---
+name: Bug report
+about: Create a report to help us improve
+title: "[BUG] :"
+labels: ''
+assignees: ''
+
+---
+
+**Please put your Discord username below**
+
+
+**Describe the bug that you are facing below**

@@ -1,10 +1,10 @@
 ---
 name: Bug report
-title:
-Describe the issue that you are facing below:
-labels: 'bug'
+about: Here you can report bugs
+title: "[BUG] :"
+labels: bug
 assignees: ''
 
 ---
 
-
+Describe this issue that you are facing?
